@@ -20,18 +20,6 @@ def nasa():
 
     print "Enjoy!"
 
-
-
-
-
-
-
-
-
-
-
-
-
 def download_file(url):
     print "Downloading file:\n" + url 
     local_filename = "img/" + url.split('/')[-1]
