@@ -1,7 +1,7 @@
 import requests
 
 def nasa():
-    print "Fetching Image Manifest"
+    print "Fetching Image Manifest..."
     data = requests.get('http://json.jpl.nasa.gov/data.json').json()
     mission_url = data["MSL"]["image_manifest"]
 
